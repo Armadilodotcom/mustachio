@@ -4,14 +4,15 @@
         <title>Mustachio</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name='viewport' content='width=devicewidth, initial-scale=1.0'>
-        <link type='stylesheet' href='style.css'></link>
+        <link href="https://fonts.googleapis.com/css?family=Poller+One&display=swap" rel="stylesheet">   
+        <link rel='stylesheet' href='style.css'></link>
     </head>
     <body>
         <header>
-            <div>
-                <img src="./assets/logo.jpg">
+            <div class="logo">
+                <img src="./assets/logo.jpg" alt="logo">
             </div>
-            <nav>
+            <nav class="navigation">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -22,32 +23,51 @@
             </nav>
         </header>
         <main>
-            <div></div>
-            <aside>
-                <h1>THE BEACON TO ALL MANKIND</h1>
-                <p>Our website templates are created with</p>
-                <p>inpiration, checked for quality and originality</p>
-                <p>and meticulously sliced and coded.</p>
-                <button><a href="#">READ MORE</a></button>
-            </aside>
-        </main>
+            <div class="featured">
+                <aside>
+                     <h1>THE BEACON TO ALL MANKIND</h1>
+                     <p>Our website templates are created with</p>
+                     <p>inpiration, checked for quality and originality</p>
+                     <p>and meticulously sliced and coded.</p>
+                     <a class="more" href="#">READ MORE</a>
+                  </aside>
+            </div>
         <div>
-            <figure>
-                 <a href="#"><img src="./assets/the-father.jpg">THE FATHER</a>
-            </figure>
-            <figure>
-                 <a href="#"><img src="./assets/the-actor.jpg">THE ACTOR</a>
-            </figure>
-            <figure>
-                <a href="#"><img src="./assets/the-nerd.jpg">THE NERD</a>
-            </figure>
+            <div>
+                <a href="#">
+                    <figure>
+                        <img src="./assets/the-father.jpg" alt="the father">
+                            <figcaption>THE FATHER</figcaption>
+                     </figure>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <figure>
+                        <img src="./assets/the-actor.jpg" alt="the actor">
+                        <figcaption>THE ACTOR</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <figure>
+                        <img src="./assets/the-nerd.jpg" alt="the nerd">
+                        <figcaption>THE NERD</figcaption>
+                    </figure>
+                </a>
+            </div>
         </div>
+    </main>
         <footer>
             <div>
                 <p>&copy 2019 by ArmadiloDotCom &reg. All rights reserved.</p>
             </div>
             <div>
-                <a href=""><img src=""></a>
+                <a href=""><img src="./assets/icons/icon-twitter.jpg" alt="twitter"></a>
+                <a href=""><img src="./assets/icons/icon-facebook.jpg" alt="facebook"></a>
+                <a href=""><img src="./assets/icons/icon-googleplus.jpg" alt="googleplus"></a>
+                <a href=""><img src="./assets/icons/icon-pinterest.jpg" alt="pinterest"></a>
             </div>
         </footer>
     </body>
